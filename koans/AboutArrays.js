@@ -93,5 +93,14 @@ describe("About Arrays", function() {
     var shiftedValue = array.shift();
     expect(shiftedValue).toEqual(FILL_ME_IN);
     expect(array).toEqual(FILL_ME_IN);
+
+   //this is a test code added by IvanShe.
+   var tempArray = [2,3];
+   tempArray.unshift(3);
+   //I want to add comments here.
+   //what this line means.
+   //Test a,A,i,I,o,O
+   expect(tempArray).toEqual(FILL_ME_IN);
+
   });  
 });
